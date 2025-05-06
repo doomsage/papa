@@ -1,0 +1,54 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-align: center;
+  background: #fff;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 3em;
+  margin-top: 2em;
+}
+
+#blow-button {
+  font-size: 1.5em;
+  padding: 10px 30px;
+  margin-top: 2em;
+  cursor: pointer;
+}
+
+#cake {
+  width: 300px;
+  margin-top: 3em;
+}
+
+#fireworks {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+#message-box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,0.6);
+  padding: 30px;
+  border-radius: 20px;
+  z-index: 2;
+  color: white;
+}
+
+#papa-photo {
+  width: 200px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday Papa</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="start-screen">
+    <h1>Happy Birthday</h1>
+    <button id="blow-button">Blow the Candle</button>
+  </div>
+
+  <div id="cake-screen" style="display: none;">
+    <img src="assets/cake.png" alt="Cake" id="cake" />
+  </div>
+
+  <div id="final-screen" style="display: none;">
+    <video id="fireworks" autoplay loop muted>
+      <source src="assets/fireworks.mp4" type="video/mp4" />
+    </video>
+    <div id="message-box">
+      <img src="assets/papa_photo.jpg" alt="Papa" id="papa-photo" />
+      <h1>Happy Birthday Papa!</h1>
+    </div>
+    <audio id="birthday-audio" src="assets/happy_birthday.mp3"></audio>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
